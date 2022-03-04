@@ -21,27 +21,27 @@
   </head>
   <body>
     <h1>Sign in</h1>
-    <form>
+    <form name="NAME" method="POST" data-netify="true">
       <lable for="form_name">Enter your name</lable>
       <input type="text" name="Name" id="form_name" />
     </form>
-    <form>
+    <form name="DOB" method="POST" data-netify="true">
       <lable for="form_dob">Enter your name</lable>
       <input type="date" name="dob" id="form_dob" />
     </form>
-    <form>
+    <form name="TEL" method="POST" data-netify="true">
       <lable for="from_tel">Enter your phone number</lable>
       <input type="tel" name="tel" id="from_tel" />
     </form>
-    <form>
+    <form name="EMAIL" method="POST" data-netify="true">
       <lable for="from_email">Enter your email</lable>
       <input type="email" name="email" id="form_email" />
     </form>
-    <form>
+    <form name="PASSWORD" method="POST" data-netify="true">
       <lable for="from_password">Create a password</lable>
       <input type="password" name="password" id="from_password" />
     </form>
-    <form id="comment">
+    <form id="comment" name="COMMENT" method="POST" data-netify="true">
       <lable for="from_comment">Comments</lable>
       <textarea
         name="comment"
@@ -50,7 +50,7 @@
         cols="30"
       ></textarea>
     </form>
-    <form>
+    <form name="SUBMIT" method="POST" data-netify="true">
       <button type="submit">Submit</button>
     </form>
   </body>
